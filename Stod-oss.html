@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Djurambulansen-Stockholm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Header -->
+  <header class="MainPageHeader">
+        <br />
+        <br />
+        <!-- Logo -->
+          <img src="img/logo_pitch.png" />
+          <h3 style="text-align: center;">VID AKUT HJÄLP RING 08-588 03 112</h3> 
+          <br />
+          <br />
+      </header>
+      <br />
+        <!-- meny -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li class="divider"></li> 
+      <li><a href="Contact.html">Kontakt</a></li>
+      <li class="divider"></li>
+      <li><a href="Styrelsen.html">Styrelsen</a></li>
+      <li class="divider"></li>
+      <li><a href="Tjanster.html">Tjänster</a></li>
+      <li class="divider"></li>
+      <li><a href="Press.html">Press</a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="index.html">Hem</a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Om oss<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="Stod-oss.html">Stöd oss</a></li>
+          <li><a href="Bli-Medlem.html">Bli medlem/volontär</a></li>
+          <li><a href="partners.html">Partners</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="Contact.html">Kontakt</a></li>
+            <li><a href="Styrelsen.html">Styrelsen</a></li>
+            <li><a href="Tjanster.html">Tjänster</a></li>
+            <li><a href="Press.html">Press</a></li>
+            <li><a href="Stod-oss.html">Stöd oss</a></li>
+            <li><a href="Bli-Medlem.html">Bli medlem/volontär</a></li>
+            <li><a href="partners.html">Partners</a></li>
+          </ul>
+      </div>
+    </nav> 
+        <br />
+        <!-- Body --> 
+        <h1>Bli medlem</h1><br />
+        <p>Ditt medlemskap betyder räddningen för många djur!</p><br />
+        <p>Medlemsavgiften går oavkortat till att hålla djurambulansen rullandes.</p><br />
+        <p>Allt arbete sker ideellt och ingen får ersättnign för det arbete som utförs!</p><br />
+        <p>Våra medlemskap gäller 1 år fr o m den dag medlemsavgiften har registrerats.</p><br />
+        <p>På denna sida kan du läsa om de olika medlemskapen och här fyller du i formuläret med de uppgifter vi behöver för att du ska bli en medlem.</p><br />
+        <br />
+        <h3>Huvudmedlem 400kr per år</h3><br />
+        <br />
+        <p>Detta ingår:</p>
+        <p>- En (1) gratis transport av det egna husdjuret akut eller planerad, i djurambulansen</p>
+        <p>- Möjlighet att engagera dig aktivt</p>
+        <p>- Möjlighet att köpa klippkort på transport av det egna husdjuret</p>
+        <p>- inbjudan till medlemsmöten och årsmöten, med rösträtt</p>
+        <br />
+        <br />
+        <h3>Stödmedlem 250 kr per år</h3><br />
+        <p>Detta ingår:</p>
+        <p>- Inbjudan till medlemsmöten och årsmöten, utan rösträtt</p>
+        <br />
+        <br />
+        <h3>Familjemedlem* 200 kr per år</h3><br />
+        <p>Detta ingår:</p>
+        <p>- Inbjudan till medlemsmöten och årsmöten, utan rösträtt</p>
+        <p>*Familemedlemskap kan endast tecknas när betalande huvudmedlem finns i samma hushåll.</p><br />
+        <p>För att bli medlem - betala in medlemsavgiften via:</p>
+        <p>Bankgiro: 883-8989 eller Swish: 123609168.</p>
+        <p>Ange ditt namn och din e-postadress som referens på inbetalningen.</p>
+        <p>Fyll i uppgifterna i vårt formulär med den info vi behöver för att registrera ditt medlemskap.</p>
+        <p>Vi bekräftar ditt medlemskap när medlemsavgiften är registrerad på vårt bankgiro.</p>
+        <br />
+        <br />
+        <h1 style="text-align: center;">Fyll i formuläret</h1><br />
+        <br />
+        <h4 style="text-align: center;">Fält med * är obligatoriska.</h4>
+        <br />
+        <div class="supportUsInput">
+        <form>
+        <select>
+            <option value="" disabled selected>Jag vill bli*</option>
+            <option value="1">Huvudmedlem</option>
+            <option value="2">Stödmedlem</option>
+            <option value="3">Familjemedlem</option>
+          </select>
+        </div>
+        <br />
+        <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input type="text" id="name">
+            <label class="active" for="name">För och Efter Namn*</label>
+        </div>
+        <div class="input-field">
+            <i class="material-icons prefix">gps_fixed</i>
+            <input type="text" id="adress">
+            <label class="active" for="adress">Adress*</label>
+        </div>
+        <div class="input-field">
+             <i class="material-icons prefix">gps_fixed</i>
+             <input type="text" id="Postnummer-ort">
+             <label class="active" for="Postnummer-ort">Postnummer och ort*</label>
+        </div>
+        <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email" class="validate">
+            <label class="active" for="email">E-post*</label>
+        </div>
+        <div class="input-field">
+            <i class="material-icons prefix">phone</i>
+            <input id="telephone" type="tel" class="validate">
+            <label for="telephone">Telefon*</label>
+        </div>
+        <br />
+        <br />
+        <input type="submit" value="Skicka ansökan">
+        <br />
+        </form> 
+    </div>
+
+        <!-- Copyright -->
+        <h6 style="text-align: center;">&copy; Joacim Strandvide 2017</h6>
+        <!-- Scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    $(".button-collapse").sideNav();
+
+    // Select 
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+            
+  </script>
+</body>
+</html>

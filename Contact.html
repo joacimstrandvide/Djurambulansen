@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Djurambulansen-Stockholm</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header -->
+  <header class="MainPageHeader">
+    <br />
+    <br />
+    <!-- Logo -->
+      <img src="img/logo_pitch.png" />
+      <h3 style="text-align: center;">VID AKUT HJÄLP RING 08-588 03 112</h3> 
+      <br />
+      <br />
+  </header>
+  <br />
+    <!-- meny -->
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="om-oss.html">Om oss</a></li>
+  <li class="divider"></li>
+  <li><a href="Contact.html">Kontakt</a></li>
+  <li class="divider"></li>
+  <li><a href="Styrelsen.html">Styrelsen</a></li>
+  <li class="divider"></li>
+  <li><a href="Tjanster.html">Tjänster</a></li>
+  <li class="divider"></li>
+  <li><a href="Press.html">Press</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="left hide-on-med-and-down">
+      <li><a href="index.html">Hem</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Om oss<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="Stod-oss.html">Stöd oss</a></li>
+      <li><a href="Bli-Medlem.html">Bli medlem/volontär</a></li>
+      <li><a href="partners.html">Partners</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="om-oss.html">Om oss</a></li>
+        <li><a href="Contact.html">Kontakt</a></li>
+        <li><a href="Styrelsen.html">Styrelsen</a></li>
+        <li><a href="Tjanster.html">Tjänster</a></li>
+        <li><a href="Press.html">Press</a></li>
+        <li><a href="Stod-oss.html">Stöd oss</a></li>
+        <li><a href="Bli-Medlem.html">Bli medlem/volontär</a></li>
+        <li><a href="partners.html">Partners</a></li>
+      </ul>
+  </div>
+</nav>    
+    <br />
+    <!-- Body -->
+   <div class="contactInfo">
+   <br />
+   <h3>Kontakt:</h3>
+   <br />
+   <h5>Djurambulansen Stockholm</h5>
+   <h5>Box 1006</h5>
+   <h5>141 21 HUDDINGE</h5>
+   <br />
+   <br />
+   <h5>Telefon kansli: 08 - 588 03 114</h5>
+   <h5>Telefontider: Helgfri tisdag kl 18:00-20:00.</h5>
+   <br />
+   <h5>Ärenden under övrig tid hänvisas till vår info E-post</h5>
+   <h5>info@djurambulansen-stockholm.se</h5>
+   <br />
+   <br />
+   <h5>Önskar ni besök av oss?</h5>
+   <h5>Skicka en förfrågan med kontaktuppgifter och information om aktiviteten till:</h5>
+   <h5>event@djurambulansen-stockholm.se</h5>
+   <br />
+   <h5>Org.nr: 802467-3033</h5>
+   <h5>Bankgiro: 883-8989</h5>
+   <h5>Swish: 1236096168</h5>
+   </div>
+   <br />
+   <br />
+   <br />
+   <div class="contactInput">
+   <form>
+       <div class="input-field">
+           <i class="material-icons prefix">account_circle</i>
+           <input type="text" id="name">
+           <label class="active" for="name">För och Efter Namn</label>
+       </div>
+       <div class="input-field">
+           <i class="material-icons prefix">email</i>
+           <input type="email" id="email" class="validate">
+           <label class="active" for="email">E-post</label>
+       </div>
+       <div class="input-field">
+           <i class="material-icons prefix">phone</i>
+           <input id="telephone" type="tel" class="validate">
+           <label for="telephone">Telefon</label>
+       </div>
+       <div class="input-field">
+           <textarea type="text" id="textarea" class="materialize-textarea"></textarea>
+           <label class="active" for="textarea">Meddelande</label>
+       </div>
+       <br />
+   </form>
+   </div>
+
+
+   <!-- Copyright -->
+   <h6 style="text-align: center;">&copy; Joacim Strandvide 2017</h6>
+   
+   <!-- Scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
+  <script>
+      $(".button-collapse").sideNav();
+    </script>
+
+</body>
+</html>

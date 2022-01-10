@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Djurambulansen-Stockholm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Header -->
+  <header class="MainPageHeader">
+        <br />
+        <br />
+        <!-- Logo -->
+          <img src="img/logo_pitch.png" />
+          <h3 style="text-align: center;">VID AKUT HJÄLP RING 08-588 03 112</h3> 
+          <br />
+          <br />
+      </header>
+      <br />
+        <!-- meny -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li class="divider"></li>
+      <li><a href="Contact.html">Kontakt</a></li>
+      <li class="divider"></li>
+      <li><a href="Styrelsen.html">Styrelsen</a></li>
+      <li class="divider"></li>
+      <li><a href="Tjanster.html">Tjänster</a></li>
+      <li class="divider"></li>
+      <li><a href="Press.html">Press</a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="index.html">Hem</a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Om oss<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="Stod-oss.html">Stöd oss</a></li>
+          <li><a href="Bli-Medlem.html">Bli medlem/volontär</a></li>
+          <li><a href="partners.html">Partners</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="Contact.html">Kontakt</a></li>
+            <li><a href="Styrelsen.html">Styrelsen</a></li>
+            <li><a href="Tjanster.html">Tjänster</a></li>
+            <li><a href="Press.html">Press</a></li>
+            <li><a href="Stod-oss.html">Stöd oss</a></li>
+            <li><a href="Bli-Medlem.html">Bli medlem/volontär</a></li>
+            <li><a href="partners.html">Partners</a></li>
+          </ul>
+      </div>
+    </nav> 
+        <br />
+        <!-- Body --> 
+        <h2>Vill du bli volontär?</h2><br>
+        <p>Vill du hjälpa oss att hjälpa djuren?</p>
+        <p>Vi behöver kontinuerligt nya glada medarbetare som kan hjälpa till inom flertal områden!</p><br>
+        <p>Här nedan ser du exempel på områden där du kan vara volontär:</p>
+        <p>*För att vara volontär behöver du ett huvudmedlemskap*</p><br>
+        <br>
+        <ul class="collection">
+            <li class="collection-item">Chaufför *se krav nedan</li>
+            <li class="collection-item">Medåkare</li>
+            <li class="collection-item">Larmoperatör</li>
+            <li class="collection-item">Personal på Djurambulansen Stockholms alla olika event</li>
+            <li class="collection-item">Organiserad och strukturerad administratör med mycket god vana av Office-paket</li>
+            <li class="collection-item">Schemaläggare</li>
+            <li class="collection-item">Event/PR/Samarbetspartners</li>
+            <li class="collection-item">Administrera sociala medier</li>
+            <li class="collection-item">Samt en massa andra uppgifter som behöver göras för att driva en förening och hålla <br> djurambulansen rullande dygnet runt, alla dagar!</li>
+          </ul>
+          <br>
+          <p>*Våra krav för att bli chaufför är:</p><br>
+          <ul class="collection">
+              <li class="collection-item">B-körkort minst 2 år</li>
+              <li class="collection-item">Kunna köra ambulansen/vara medåkare minst ett 24-timmarspass per månad</li>
+              <li class="collection-item">Huvudmedlemskap i Djurambulansen Stockholm</li>
+          </ul>
+          <br>
+          <p>Du får utbildning av Djurambulansen Stockholm för att kunnda framföra ambulansen på ett tryggt och <br> säkert sätt samt utbildning om hur material och utrustningen i ambulansen skall användas.</p>
+          <br>
+          <p>Har du något område du brinner för?</p>
+          <p>Berätta för oss, vi vill gärna veta!</p>
+          <p>Låter det intresannt?</p>
+          <p>Fyll i din ansökan i formuläret redan idag!</p>
+          <p>Fält märkta med * är obligatoriska</p><br>
+          <br>
+          <div class="input-field col s8">
+            <select>
+              <option value="" disabled selected>Välj</option>
+              <option value="1">Bli chaufför/medåkare</option>
+              <option value="2">Engagera mig på annat sätt</option>
+            </select>
+            <label>Jag vill bli*</label>
+          </div>
+
+
+        <!-- Copyright -->
+        <h6 style="text-align: center;">&copy; Joacim Strandvide 2017</h6>
+        <!-- Scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    $(".button-collapse").sideNav();
+
+    $(document).ready(function() {
+    $('select').material_select();
+  });
+      
+  </script>
+</body>
+</html>
