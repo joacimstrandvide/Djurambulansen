@@ -1,7 +1,7 @@
 # Djurambulansen
 
-En djurräddnings organisation baserad i Sverige.
+A animal rescue organisation based in Sweden.
 
-Detta projekt använder ett CSS bibliotek vid namn "materialize"
+This project uses a CSS library called "materialize"
 
 <img src="Djurambulansen.png" alt="Screenshot" title="Screenshot">
